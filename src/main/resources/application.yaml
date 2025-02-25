@@ -9,11 +9,11 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: http://lab.fachesf.com.br:11111/auth/realms/fachesf
-          jwk-set-uri: http://lab.fachesf.com.br:11111/auth/realms/fachesf/protocol/openid-connect/certs
+          issuer-uri: http://auth.empresa.com.br/auth/realms/meu-relm
+          jwk-set-uri: http://auth.empresa.com.br/auth/realms/meu-relm/protocol/openid-connect/certs
 
 keycloak:
-  auth-server-url: http://lab.fachesf.com.br:11111/auth
+  auth-server-url: http://auth.empresa.com.br/auth
   realm: fachesf
-  client-id: oauth-service
-  client-secret: ll3pJAyxcCBfpDf5GUf1BYMzK6uOi135
+  client-id: client-id-aqui-pegue-no-keycloak
+  client-secret: client-secret-aqui-pegue-no-keycloak
